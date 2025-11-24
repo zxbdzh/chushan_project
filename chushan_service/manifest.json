@@ -68,6 +68,7 @@
     "uniStatistics" : {
         "enable" : false
     },
+<<<<<<< HEAD
     "vueVersion" : "3",
     "h5" : {
         "router" : {
@@ -76,4 +77,7 @@
         },
         "title" : "锄山服务-h5"
     }
+=======
+    "vueVersion" : "3"
+>>>>>>> d51e30be6a2be42b21fc0d359a8039bda9864aba
 }

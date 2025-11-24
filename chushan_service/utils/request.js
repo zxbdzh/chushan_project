@@ -1,5 +1,9 @@
 // 定义全局 baseURL
+<<<<<<< HEAD
 const baseURL = 'https://api.zxbdwy.online/chushan';
+=======
+const baseURL = 'https://api.chushan.tech';
+>>>>>>> d51e30be6a2be42b21fc0d359a8039bda9864aba
 // const baseURL = 'http://localhost:8080';
 
 // 请求拦截器

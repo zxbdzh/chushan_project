@@ -21,9 +21,12 @@ public class LoginInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+<<<<<<< HEAD
         // 关键：打印后端收到的实际请求路径
         String actualUri = request.getRequestURI();
         log.info("当前请求路径：{}", actualUri); // 看日志输出！
+=======
+>>>>>>> d51e30be6a2be42b21fc0d359a8039bda9864aba
         if (Objects.equals(request.getMethod(), "OPTIONS")) return true;
         // 获取token
         String token = request.getHeader("authorization");

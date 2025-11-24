@@ -35,7 +35,10 @@ public class WebMvcConfig implements WebMvcConfigurer {
         registry.addResourceHandler("/webjars/**").addResourceLocations("classpath:/META-INF/resources/webjars/");
     }
 
+<<<<<<< HEAD
     @Override
+=======
+>>>>>>> d51e30be6a2be42b21fc0d359a8039bda9864aba
     public void addInterceptors(InterceptorRegistry registry) {
         // 配置第一个拦截器：排除所有不需要拦截的路径
         registry.addInterceptor(new LoginInterceptor())
