@@ -1,0 +1,16 @@
+@import './base.css';
+/* 全局样式 */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* 禁用全局滚动 */
+    touch-action: none; /* 禁用移动端手势 */
+}
+
+/* 移动端专用适配 */
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
