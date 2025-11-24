@@ -4,6 +4,32 @@
 
 锄山智慧旅游服务平台是一个集成了地图服务、移动应用、管理后台和API接口的综合性旅游服务平台。该平台为游客提供景区导览、预约服务、特产购买等一站式旅游服务体验。
 
+## 项目图片
+
+![](https://minio.zxbdwy.online:443/picgo/21-47-43.png)
+![](https://minio.zxbdwy.online:443/picgo/21-47-46.png)
+![](https://minio.zxbdwy.online:443/picgo/21-47-49.png)
+![](https://minio.zxbdwy.online:443/picgo/21-47-53.png)
+![](https://minio.zxbdwy.online:443/picgo/21-47-58.png)
+![](https://minio.zxbdwy.online:443/picgo/21-48-04.png)
+![](https://minio.zxbdwy.online:443/picgo/21-46-23.png)
+![](https://minio.zxbdwy.online:443/picgo/21-46-48.png)
+![](https://minio.zxbdwy.online:443/picgo/21-46-51.png)
+![](https://minio.zxbdwy.online:443/picgo/21-46-55.png)
+![](https://minio.zxbdwy.online:443/picgo/21-46-58.png)
+![](https://minio.zxbdwy.online:443/picgo/21-47-03.png)
+![](https://minio.zxbdwy.online:443/picgo/21-47-07.png)
+![](https://minio.zxbdwy.online:443/picgo/21-47-10.png)
+![](https://minio.zxbdwy.online:443/picgo/21-47-15.png)
+![](https://minio.zxbdwy.online:443/picgo/21-47-18.png)
+![](https://minio.zxbdwy.online:443/picgo/21-47-34.png)
+
+## 项目DEMO
+
+- 锄山地图：https://project.zxbdwy.online/chushan-map
+- 锄山服务h5版：https://project.zxbdwy.online/chushan/
+- 锄山服务后台管理系统：https://project.zxbdwy.online/chushan-admin/
+
 ## 项目架构
 
 本项目采用前后端分离的微服务架构，包含以下四个主要模块：
