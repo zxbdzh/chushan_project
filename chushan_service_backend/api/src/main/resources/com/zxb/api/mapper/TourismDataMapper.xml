@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zxb.api.mapper.TourismDataMapper">
+
+    <resultMap id="BaseResultMap" type="com.zxb.api.domain.TourismData">
+            <id property="id" column="id" />
+            <result property="type" column="type" />
+            <result property="name" column="name" />
+            <result property="description" column="description" />
+            <result property="image" column="image" />
+            <result property="capacity" column="capacity" />
+            <result property="available" column="available" />
+            <result property="price" column="price" />
+            <result property="tags" column="tags" />
+            <result property="score" column="score" />
+            <result property="visitCount" column="visit_count" />
+            <result property="reservationDays" column="reservation_days" />
+            <result property="reservationCount" column="reservation_count" />
+            <result property="date" column="date" />
+            <result property="content" column="content" />
+            <result property="url" column="url" />
+            <result property="specs" column="specs" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,type,name,description,image,capacity,
+        available,price,tags,score,visit_count,
+        reservation_days,reservation_count,date,content,url,
+        specs
+    </sql>
+</mapper>

@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/scenic_db
+    username: scenic_db
+    password: scenic_db
+
+aws:
+  s3:
+    accessKey: RrxEXxnHd5dF86ZC # 账号key
+    secretKey: mE24azvwamtpB12nV8g5ZZmEFj8Sh7 # 私钥
+server:
+  baseUrl: http://localhost:5173

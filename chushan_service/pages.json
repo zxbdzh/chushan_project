@@ -1,0 +1,110 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		// {
+		//   "path": "pages/travel-guide/travel-guide",
+		//   "style": {
+		//     "navigationBarTitleText": "攻略"
+		//   }
+		// },
+		{
+			"path": "pages/service/service",
+			"style": {
+				"navigationBarTitleText": "服务"
+			}
+		},
+		{
+			"path": "pages/index/news/news",
+			"style": {
+				"navigationBarTitleText": "景区动态"
+			}
+		},
+		{
+			"path": "pages/index/reservation/reservation",
+			"style": {
+				"navigationBarTitleText": "景点预约"
+			}
+		},
+		{
+			"path": "pages/index/products/products",
+			"style": {
+				"navigationBarTitleText": "特产"
+			}
+		},
+		{
+			"path": "pages/index/products/detail",
+			"style": {
+				"navigationBarTitleText": "特产详情"
+			}
+		},
+		{
+			"path": "pages/index/overview/overview",
+			"style": {
+				"navigationBarTitleText": "景区概况"
+			}
+		},
+		{
+			"path": "pages/parking/parking",
+			"style": {
+				"navigationBarTitleText": "停车预约"
+			}
+		},
+		{
+			"path": "pages/index/reservation/detail",
+			"style": {
+				"navigationBarTitleText": "详情"
+			},
+			"usingComponents": {}
+		},
+		{
+			"path": "pages/service/detail",
+			"style": {
+				"navigationBarTitleText": "服务详情"
+			}
+		},
+		{
+			"path": "pages/index/room-reservation/room-reservation",
+			"style": {
+				"navigationBarTitleText": "房间预约"
+			}
+		},
+		{
+			"path": "pages/index/room-reservation/my-reservations",
+			"style": {
+				"navigationBarTitleText": "我的预约"
+			}
+		}
+	],
+	"tabBar": {
+		"list": [{
+				"iconPath": "/static/icon/home.png",
+				"selectedIconPath": "/static/icon/home-fill.png",
+				"pagePath": "pages/index/index",
+				"text": "主页"
+			},
+			// {
+			// 	"iconPath": "/static/icon/travel-guide.png",
+			// 	"selectedIconPath": "/static/icon/trave-guide_fill.png",
+			// 	"pagePath": "pages/travel-guide/travel-guide",
+			// 	"text": "攻略"
+			// },
+			{
+				"iconPath": "/static/icon/service.png",
+				"selectedIconPath": "/static/icon/service_fill.png",
+				"pagePath": "pages/service/service",
+				"text": "服务"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "锄山服务",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

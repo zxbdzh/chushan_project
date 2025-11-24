@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: api
+  profiles:
+    active: dev
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+springdoc:
+  swagger-ui:
+    tags-sorter: alpha
+  group-configs:
+    - group: bis
+      display-name: "业务接口文档"
+      paths-to-match: '/**'
+      packages-to-scan: com.zxb.api
+  default-flat-param-object: true
+knife4j:
+  # 开启增强配置
+  enable: true
+  # 开启生产环境屏蔽（如果是生产环境，需要把下面配置设置true）
+  #  production: true
+  setting:
+    language: zh-CN
+    swagger-model-name: 实体类列表
+mybatis-plus:
+  # 开启下划线转换
+  configuration:
+    map-underscore-to-camel-case: true
+
+aws:
+  s3:
+    s3Url: https://cn-sy1.rains3.com/ # S3服务器地址
