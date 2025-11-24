@@ -3,7 +3,7 @@ import { useThemeStore } from '@/stores/theme.ts'
 import { useUserStore } from '@/stores/user.ts'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(import.meta.env.VITE_APP_BASE_URL),
   routes: [
     {
       path: '/',
